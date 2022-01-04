@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio</title>
+        <style type="text/css">
+        .profile {
+            background-color: white;
+            height: 200px;
+            width: 200px;
+            display: inline-block;
+            background-image: url('Photo.jfif');
+            background-size: contain;
+        }    
+        .github {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('Github.png');
+            background-size: contain;
+        }
+        .linkedin {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('Linkedin.jfif');
+            background-size: contain;
+        }
+        .correo {
+            background-color: white;
+            height: 40px;
+            width: 40px;
+            display: inline-block;
+            background-image: url('Correo.jfif');
+            background-size: contain;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>
+            Luisa Posheyla Chávez Vásquez
+        </h1>
+        <div id='profile'></div>
+        <div class='row'>
+            <div class='profile'></div>
+        </div>
+        <div class='row'>
+            <div class='github'></div>
+            <a href="https://github.com/Posheyla">my github</a>
+            <div class='linkedin'></div>
+            <a href="https://www.linkedin.com/in/luisa-ch%C3%A1vez-v%C3%A1squez-4116a5170/">my linkedin</a>
+            <div class='correo'></div>
+            <a href="correo.html">my email</a>
+        </div>
+        <h2>Technologies</h2>
+        <table>
+            <tr>
+                <th><strong>Front-End</strong></th>
+                <th><strong>Python</strong></th>
+                <th><strong>JavaScript</strong></th>
+                <th><strong>Database</strong></th>
+                <th><strong>Concepts</strong></th>
+            </tr>
+            <tr>
+                <td>HTML5</td>
+                <td>Django</td>
+                <td>Express</td>
+                <td>MySQL</td>
+                <td>AJAX</td>
+            </tr>
+            <tr>
+                <td>CSS3</td>
+                <td>Flask</td>
+                <td>Mongoose</td>
+                <td>MongoDB</td>
+            </tr>
+            <tr>
+                <td>Bootstrap</td>
+                <td>Unittest</td>
+                <td>React</td>
+                <td></td>
+                <td>REST</td>
+            </tr>
+        </table>
+        <h2>Personal Information</h2>
+        <h3>Hobbies:</h3>
+        <p>Dance and programming</p>
+        <h3>Sports:</h3>
+        <p>Voley and Futbol</p>
+        <h3>TV programs:</h3>
+        <p>Gilmore Girls, Black Mirror, The Simpsons, Game of thrones</p>
+        <form>
+            <div>
+                <h2>
+                    Contact Me
+                </h2>
+            </div>
+            <div>
+                <label for="nombreUsuario">
+                    Name:
+                </label>
+                <input type="text" name="nombreUsuario">
+                <label for="emailUsuario">
+                    Email:
+                </label>
+                <input type="text" name="emailUsuario">
+            </div>
+            <div>
+                <label for="messageUsuario">
+                    Message:
+                </label>
+                <textarea id="comentario" name="messageUsuario"></textarea>
+            </div>
+            <input type="submit" value="Send Message">
+        </form>
+    </body>
+</html>
